@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TesterSite:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TesterSite_jar</output-path>
+    <root id="archive" name="TesterSite.jar">
+      <element id="module-output" name="TesterSite" />
+      <element id="dir-copy" path="$PROJECT_DIR$/tomcat" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/tomcat/apache-tomcat-8.5.34/lib/servlet-api.jar" path-in-jar="/" />
+      <element id="library" level="project" name="tomcat" />
+    </root>
+  </artifact>
+</component>
