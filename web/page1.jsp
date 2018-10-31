@@ -93,6 +93,7 @@
                 int i3 = Integer.parseInt(request.getParameter("input3"));
 
                 try {
+                    // check if the first input was zero, if it is then trigger a caught exception
                     if (i1==0)
                     {
                         out.print("<h2> Input1 is zero so will create an exception! </h2>");
